@@ -15,6 +15,6 @@ To compile the project Simplicity Studio v5 should be installed. Clone/download 
 
 You need to add [Scratch 3 Thunderboard Sense 2 extension](https://github.com/sza2/scratch3_tbsense2) to Scratch to make the board work in Scratch 3.
 
-Additionally you need to run [Scratch Link](https://en.scratch-wiki.info/wiki/Scratch_Link), the websocket <-> Bluetooth proxy to access Bluetooth devices from Scratch 3. Since my preference is Linux I used [scratch_link.py](https://github.com/kawasaki/pyscrlink) and not the official Scratch Link. At the time of writing this document my pull request is not accepted so, probably you better off to go with my fork: https://github.com/sza2/pyscrlink.
+Additionally you need to run [Scratch Link](https://en.scratch-wiki.info/wiki/Scratch_Link), the websocket <-> Bluetooth proxy to access Bluetooth devices from Scratch 3. Since my preference is Linux I used [scratch_link.py](https://github.com/kawasaki/pyscrlink) and not the official Scratch Link. ~~At the time of writing this document my pull request is not accepted so, probably you better off to go with my fork: https://github.com/sza2/pyscrlink.~~ My pull request was accepted in pyscrlink.
 
 Note: this project is independent from Silicon Labs and Scratch not officially supported by any of these organizations.
