@@ -1,6 +1,6 @@
 # tbsense2scratch3
 
-Firmware for Thunderboard Sense 2 tha collaborates with the corresponding Scratch 3 extension
+Firmware for Thunderboard Sense 2 that collaborates with the corresponding Scratch 3 extension
 
 The basic idea was to make Silicon Labs' Thunderboard Sense 2 usable in Scratch 3 just like micro:bit. First, I tired to find the source of Scratch's firmware for micro:bit however, I was unable to find it - thus I "reverse engineered" it from the Scratch 3 JavaScript extension.
 
