@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="uc.module.setup.componentSetup.com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt.debug#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:7.2.1.20170904.gcc" propertyScope="project">
+  <folder name="gecko_sdk_3.1.0">
+    <folder name="platform">
+      <folder name="common">
+        <folder name="toolchain">
+          <folder name="src">
+            <file name="sl_memory.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/common/toolchain/src/sl_memory.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_memory_region.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/common/toolchain/inc/sl_memory_region.h"/>
+            <file name="sl_memory.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/common/toolchain/inc/sl_memory.h"/>
+            <file name="sl_gcc_preinclude.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/common/toolchain/inc/sl_gcc_preinclude.h"/>
+          </folder>
+        </folder>
+        <folder name="inc">
+          <file name="sl_atomic.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/common/inc/sl_atomic.h"/>
+          <file name="sl_slist.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/common/inc/sl_slist.h"/>
+          <file name="sl_enum.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/common/inc/sl_enum.h"/>
+          <file name="sl_status.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/common/inc/sl_status.h"/>
+        </folder>
+        <folder name="src">
+          <file name="sl_slist.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/common/src/sl_slist.c"/>
+        </folder>
+      </folder>
+      <folder name="driver">
+        <folder name="leddrv">
+          <folder name="src">
+            <file name="sl_led.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/leddrv/src/sl_led.c"/>
+            <file name="sl_simple_rgbw_pwm_led.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/leddrv/src/sl_simple_rgbw_pwm_led.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_led.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/leddrv/inc/sl_led.h"/>
+            <file name="sl_simple_rgbw_pwm_led.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/leddrv/inc/sl_simple_rgbw_pwm_led.h"/>
+          </folder>
+        </folder>
+        <folder name="button">
+          <folder name="src">
+            <file name="sl_button.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/button/src/sl_button.c"/>
+            <file name="sl_simple_button.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/button/src/sl_simple_button.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_button.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/button/inc/sl_button.h"/>
+            <file name="sl_simple_button.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/button/inc/sl_simple_button.h"/>
+          </folder>
+        </folder>
+        <folder name="i2cspm">
+          <folder name="src">
+            <file name="sl_i2cspm.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/i2cspm/src/sl_i2cspm.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_i2cspm.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/driver/i2cspm/inc/sl_i2cspm.h"/>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="service">
+        <folder name="iostream">
+          <folder name="src">
+            <file name="sl_iostream.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/iostream/src/sl_iostream.c"/>
+            <file name="sl_iostream_usart.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/iostream/src/sl_iostream_usart.c"/>
+            <file name="sl_iostream_uart.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/iostream/src/sl_iostream_uart.c"/>
+            <file name="sl_iostream_retarget_stdio.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/iostream/src/sl_iostream_retarget_stdio.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_iostream.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/iostream/inc/sl_iostream.h"/>
+            <file name="sl_iostream_usart.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/iostream/inc/sl_iostream_usart.h"/>
+            <file name="sl_iostream_uart.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/iostream/inc/sl_iostream_uart.h"/>
+            <file name="sli_iostream_uart.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/iostream/inc/sli_iostream_uart.h"/>
+          </folder>
+        </folder>
+        <folder name="device_init">
+          <folder name="src">
+            <file name="sl_device_init_dcdc_s1.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/device_init/src/sl_device_init_dcdc_s1.c"/>
+            <file name="sl_device_init_nvic.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/device_init/src/sl_device_init_nvic.c"/>
+            <file name="sl_device_init_lfxo_s1.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/device_init/src/sl_device_init_lfxo_s1.c"/>
+            <file name="sl_device_init_emu_s1.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/device_init/src/sl_device_init_emu_s1.c"/>
+            <file name="sl_device_init_hfxo_s1.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/device_init/src/sl_device_init_hfxo_s1.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_device_init_dcdc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/device_init/inc/sl_device_init_dcdc.h"/>
+            <file name="sl_device_init_clocks.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/device_init/inc/sl_device_init_clocks.h"/>
+            <file name="sl_device_init_nvic.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/device_init/inc/sl_device_init_nvic.h"/>
+            <file name="sl_device_init_lfxo.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/device_init/inc/sl_device_init_lfxo.h"/>
+            <file name="sl_device_init_emu.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/device_init/inc/sl_device_init_emu.h"/>
+            <file name="sl_device_init_hfxo.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/device_init/inc/sl_device_init_hfxo.h"/>
+          </folder>
+        </folder>
+        <folder name="ram_interrupt_vector_init">
+          <folder name="src">
+            <file name="sl_ram_interrupt_vector_init.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/ram_interrupt_vector_init/src/sl_ram_interrupt_vector_init.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_ram_interrupt_vector_init.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/ram_interrupt_vector_init/inc/sl_ram_interrupt_vector_init.h"/>
+          </folder>
+        </folder>
+        <folder name="sleeptimer">
+          <folder name="src">
+            <file name="sl_sleeptimer.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/sleeptimer/src/sl_sleeptimer.c"/>
+            <file name="sl_sleeptimer_hal_rtcc.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/sleeptimer/src/sl_sleeptimer_hal_rtcc.c"/>
+            <file name="sli_sleeptimer_hal.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/sleeptimer/src/sli_sleeptimer_hal.h"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_sleeptimer.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/sleeptimer/inc/sl_sleeptimer.h"/>
+            <file name="sli_sleeptimer.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/sleeptimer/inc/sli_sleeptimer.h"/>
+          </folder>
+        </folder>
+        <folder name="mpu">
+          <folder name="src">
+            <file name="sl_mpu.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/mpu/src/sl_mpu.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_mpu.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/mpu/inc/sl_mpu.h"/>
+          </folder>
+        </folder>
+        <folder name="system">
+          <folder name="src">
+            <file name="sl_system_process_action.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/system/src/sl_system_process_action.c"/>
+            <file name="sl_system_init.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/system/src/sl_system_init.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_system_process_action.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/system/inc/sl_system_process_action.h"/>
+            <file name="sl_system_init.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/system/inc/sl_system_init.h"/>
+          </folder>
+        </folder>
+        <folder name="udelay">
+          <folder name="src">
+            <file name="sl_udelay.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/udelay/src/sl_udelay.c"/>
+            <file name="sl_udelay_armv6m_gcc.S" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/udelay/src/sl_udelay_armv6m_gcc.S"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_udelay.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/udelay/inc/sl_udelay.h"/>
+          </folder>
+        </folder>
+        <folder name="power_manager">
+          <folder name="src">
+            <file name="sl_power_manager.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/power_manager/src/sl_power_manager.c"/>
+            <file name="sl_power_manager_debug.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/power_manager/src/sl_power_manager_debug.c"/>
+            <file name="sl_power_manager_hal_s0_s1.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/power_manager/src/sl_power_manager_hal_s0_s1.c"/>
+            <file name="sli_power_manager_private.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/power_manager/src/sli_power_manager_private.h"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_power_manager.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/power_manager/inc/sl_power_manager.h"/>
+            <file name="sl_power_manager_debug.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/power_manager/inc/sl_power_manager_debug.h"/>
+            <file name="sli_power_manager.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/service/power_manager/inc/sli_power_manager.h"/>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="emlib">
+        <folder name="inc">
+          <file name="em_chip.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_chip.h"/>
+          <file name="em_rtcc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_rtcc.h"/>
+          <file name="em_msc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_msc.h"/>
+          <file name="em_msc_compat.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_msc_compat.h"/>
+          <file name="em_crypto.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_crypto.h"/>
+          <file name="em_crypto_compat.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_crypto_compat.h"/>
+          <file name="em_cmu.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_cmu.h"/>
+          <file name="em_cmu_compat.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_cmu_compat.h"/>
+          <file name="em_adc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_adc.h"/>
+          <file name="em_i2c.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_i2c.h"/>
+          <file name="em_system.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_system.h"/>
+          <file name="em_usart.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_usart.h"/>
+          <file name="em_gpio.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_gpio.h"/>
+          <file name="em_emu.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_emu.h"/>
+          <file name="em_assert.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_assert.h"/>
+          <file name="em_bus.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_bus.h"/>
+          <file name="em_common.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_common.h"/>
+          <file name="em_ramfunc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_ramfunc.h"/>
+          <file name="em_version.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_version.h"/>
+          <file name="em_timer.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_timer.h"/>
+          <file name="em_core.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/inc/em_core.h"/>
+        </folder>
+        <folder name="src">
+          <file name="em_rtcc.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/src/em_rtcc.c"/>
+          <file name="em_msc.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/src/em_msc.c"/>
+          <file name="em_crypto.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/src/em_crypto.c"/>
+          <file name="em_cmu.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/src/em_cmu.c"/>
+          <file name="em_adc.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/src/em_adc.c"/>
+          <file name="em_i2c.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/src/em_i2c.c"/>
+          <file name="em_system.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/src/em_system.c"/>
+          <file name="em_usart.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/src/em_usart.c"/>
+          <file name="em_gpio.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/src/em_gpio.c"/>
+          <file name="em_emu.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/src/em_emu.c"/>
+          <file name="em_assert.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/src/em_assert.c"/>
+          <file name="em_timer.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/src/em_timer.c"/>
+          <file name="em_core.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emlib/src/em_core.c"/>
+        </folder>
+      </folder>
+      <folder name="emdrv">
+        <folder name="common">
+          <folder name="inc">
+            <file name="ecode.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emdrv/common/inc/ecode.h"/>
+          </folder>
+        </folder>
+        <folder name="gpiointerrupt">
+          <folder name="src">
+            <file name="gpiointerrupt.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emdrv/gpiointerrupt/src/gpiointerrupt.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="gpiointerrupt.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/emdrv/gpiointerrupt/inc/gpiointerrupt.h"/>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="radio">
+        <folder name="rail_lib">
+          <folder name="common">
+            <file name="rail.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/common/rail.h"/>
+            <file name="rail_assert_error_codes.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/common/rail_assert_error_codes.h"/>
+            <file name="rail_types.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/common/rail_types.h"/>
+            <file name="rail_features.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/common/rail_features.h"/>
+          </folder>
+          <folder name="protocol">
+            <folder name="ble">
+              <file name="rail_ble.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/protocol/ble/rail_ble.h"/>
+            </folder>
+            <folder name="ieee802154">
+              <file name="rail_ieee802154.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/protocol/ieee802154/rail_ieee802154.h"/>
+            </folder>
+            <folder name="zwave">
+              <file name="rail_zwave.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/protocol/zwave/rail_zwave.h"/>
+            </folder>
+            <folder name="mfm">
+              <file name="rail_mfm.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/protocol/mfm/rail_mfm.h"/>
+            </folder>
+          </folder>
+          <folder name="chip">
+            <folder name="efr32">
+              <folder name="efr32xg1x">
+                <file name="rail_chip_specific.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/chip/efr32/efr32xg1x/rail_chip_specific.h"/>
+              </folder>
+            </folder>
+          </folder>
+          <folder name="autogen">
+            <folder name="librail_release">
+              <file name="librail_efr32xg12_gcc_release.a" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/autogen/librail_release/librail_efr32xg12_gcc_release.a"/>
+            </folder>
+          </folder>
+          <folder name="plugin">
+            <folder name="rail_util_pti">
+              <file name="sl_rail_util_pti.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/rail_util_pti/sl_rail_util_pti.c"/>
+              <file name="sl_rail_util_pti.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/rail_util_pti/sl_rail_util_pti.h"/>
+            </folder>
+            <folder name="pa-conversions">
+              <folder name="efr32xg1x">
+                <file name="sl_rail_util_pa_curves.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/pa-conversions/efr32xg1x/sl_rail_util_pa_curves.h"/>
+              </folder>
+              <file name="pa_conversions_efr32.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr32.c"/>
+              <file name="pa_curves_efr32.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/pa-conversions/pa_curves_efr32.c"/>
+              <file name="pa_conversions_efr32.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr32.h"/>
+              <file name="pa_curve_types_efr32.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/pa-conversions/pa_curve_types_efr32.h"/>
+              <file name="pa_curves_efr32.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/radio/rail_lib/plugin/pa-conversions/pa_curves_efr32.h"/>
+            </folder>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="Device">
+        <folder name="SiliconLabs">
+          <folder name="EFR32MG12P">
+            <folder name="Source">
+              <folder name="GCC">
+                <file name="startup_efr32mg12p.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Source/GCC/startup_efr32mg12p.c"/>
+              </folder>
+              <file name="system_efr32mg12p.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Source/system_efr32mg12p.c"/>
+            </folder>
+            <folder name="Include">
+              <file name="efr32mg12p332f1024gl125.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p332f1024gl125.h"/>
+              <file name="efr32mg12p_acmp.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_acmp.h"/>
+              <file name="efr32mg12p_adc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_adc.h"/>
+              <file name="efr32mg12p_af_pins.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_af_pins.h"/>
+              <file name="efr32mg12p_af_ports.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_af_ports.h"/>
+              <file name="efr32mg12p_cmu.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_cmu.h"/>
+              <file name="efr32mg12p_cryotimer.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_cryotimer.h"/>
+              <file name="efr32mg12p_crypto.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_crypto.h"/>
+              <file name="efr32mg12p_csen.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_csen.h"/>
+              <file name="efr32mg12p_devinfo.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_devinfo.h"/>
+              <file name="efr32mg12p_dma_descriptor.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_dma_descriptor.h"/>
+              <file name="efr32mg12p_dmareq.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_dmareq.h"/>
+              <file name="efr32mg12p_emu.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_emu.h"/>
+              <file name="efr32mg12p_etm.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_etm.h"/>
+              <file name="efr32mg12p_fpueh.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_fpueh.h"/>
+              <file name="efr32mg12p_gpcrc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_gpcrc.h"/>
+              <file name="efr32mg12p_gpio.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_gpio.h"/>
+              <file name="efr32mg12p_gpio_p.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_gpio_p.h"/>
+              <file name="efr32mg12p_i2c.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_i2c.h"/>
+              <file name="efr32mg12p_idac.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_idac.h"/>
+              <file name="efr32mg12p_ldma.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_ldma.h"/>
+              <file name="efr32mg12p_ldma_ch.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_ldma_ch.h"/>
+              <file name="efr32mg12p_lesense.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_lesense.h"/>
+              <file name="efr32mg12p_lesense_buf.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_lesense_buf.h"/>
+              <file name="efr32mg12p_lesense_ch.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_lesense_ch.h"/>
+              <file name="efr32mg12p_lesense_st.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_lesense_st.h"/>
+              <file name="efr32mg12p_letimer.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_letimer.h"/>
+              <file name="efr32mg12p_leuart.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_leuart.h"/>
+              <file name="efr32mg12p_msc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_msc.h"/>
+              <file name="efr32mg12p_pcnt.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_pcnt.h"/>
+              <file name="efr32mg12p_prs.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_prs.h"/>
+              <file name="efr32mg12p_prs_ch.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_prs_ch.h"/>
+              <file name="efr32mg12p_prs_signals.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_prs_signals.h"/>
+              <file name="efr32mg12p_rmu.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_rmu.h"/>
+              <file name="efr32mg12p_romtable.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_romtable.h"/>
+              <file name="efr32mg12p_rtcc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_rtcc.h"/>
+              <file name="efr32mg12p_rtcc_cc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_rtcc_cc.h"/>
+              <file name="efr32mg12p_rtcc_ret.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_rtcc_ret.h"/>
+              <file name="efr32mg12p_smu.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_smu.h"/>
+              <file name="efr32mg12p_timer.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_timer.h"/>
+              <file name="efr32mg12p_timer_cc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_timer_cc.h"/>
+              <file name="efr32mg12p_trng.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_trng.h"/>
+              <file name="efr32mg12p_usart.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_usart.h"/>
+              <file name="efr32mg12p_vdac.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_vdac.h"/>
+              <file name="efr32mg12p_vdac_opa.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_vdac_opa.h"/>
+              <file name="efr32mg12p_wdog.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_wdog.h"/>
+              <file name="efr32mg12p_wdog_pch.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/efr32mg12p_wdog_pch.h"/>
+              <file name="em_device.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/em_device.h"/>
+              <file name="system_efr32mg12p.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/Device/SiliconLabs/EFR32MG12P/Include/system_efr32mg12p.h"/>
+            </folder>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="bootloader">
+        <folder name="api">
+          <file name="btl_interface.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/bootloader/api/btl_interface.c"/>
+          <file name="btl_interface_storage.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/bootloader/api/btl_interface_storage.c"/>
+          <file name="application_properties.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/bootloader/api/application_properties.h"/>
+          <file name="btl_errorcode.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/bootloader/api/btl_errorcode.h"/>
+          <file name="btl_interface.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/bootloader/api/btl_interface.h"/>
+          <file name="btl_interface_parser.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/bootloader/api/btl_interface_parser.h"/>
+          <file name="btl_interface_storage.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/bootloader/api/btl_interface_storage.h"/>
+          <file name="btl_reset_info.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/bootloader/api/btl_reset_info.h"/>
+        </folder>
+      </folder>
+      <folder name="CMSIS">
+        <folder name="Include">
+          <file name="arm_common_tables.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/CMSIS/Include/arm_common_tables.h"/>
+          <file name="arm_const_structs.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/CMSIS/Include/arm_const_structs.h"/>
+          <file name="arm_math.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/CMSIS/Include/arm_math.h"/>
+          <file name="cmsis_compiler.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/CMSIS/Include/cmsis_compiler.h"/>
+          <file name="cmsis_version.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/CMSIS/Include/cmsis_version.h"/>
+          <file name="cmsis_gcc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/CMSIS/Include/cmsis_gcc.h"/>
+          <file name="core_cm4.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/CMSIS/Include/core_cm4.h"/>
+          <file name="mpu_armv7.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/platform/CMSIS/Include/mpu_armv7.h"/>
+        </folder>
+      </folder>
+    </folder>
+    <folder name="hardware">
+      <folder name="driver">
+        <folder name="mx25_flash_shutdown">
+          <folder name="src">
+            <folder name="sl_mx25_flash_shutdown_usart">
+              <file name="sl_mx25_flash_shutdown.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/mx25_flash_shutdown/src/sl_mx25_flash_shutdown_usart/sl_mx25_flash_shutdown.c"/>
+            </folder>
+          </folder>
+          <folder name="inc">
+            <folder name="sl_mx25_flash_shutdown_usart">
+              <file name="sl_mx25_flash_shutdown.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_usart/sl_mx25_flash_shutdown.h"/>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="bmp280">
+          <folder name="src">
+            <file name="sl_bmp280.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/bmp280/src/sl_bmp280.c"/>
+          </folder>
+          <folder name="bosch">
+            <folder name="BMP280_driver">
+              <file name="bmp280.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/bmp280/bosch/BMP280_driver/bmp280.c"/>
+              <file name="bmp280.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/bmp280/bosch/BMP280_driver/bmp280.h"/>
+            </folder>
+          </folder>
+          <folder name="inc">
+            <file name="sl_bmp280.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/bmp280/inc/sl_bmp280.h"/>
+          </folder>
+        </folder>
+        <folder name="si70xx">
+          <folder name="src">
+            <file name="sl_si70xx.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si70xx/src/sl_si70xx.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_si70xx.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si70xx/inc/sl_si70xx.h"/>
+          </folder>
+        </folder>
+        <folder name="si7210">
+          <folder name="src">
+            <file name="sl_si7210.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si7210/src/sl_si7210.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_si7210.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si7210/inc/sl_si7210.h"/>
+            <file name="sl_si7210_regs.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/si7210/inc/sl_si7210_regs.h"/>
+          </folder>
+        </folder>
+        <folder name="icm20648">
+          <folder name="src">
+            <file name="sl_icm20648.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/icm20648/src/sl_icm20648.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_icm20648.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/icm20648/inc/sl_icm20648.h"/>
+          </folder>
+        </folder>
+        <folder name="imu">
+          <folder name="src">
+            <file name="sl_imu.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/imu/src/sl_imu.c"/>
+            <file name="sl_imu_dcm.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/imu/src/sl_imu_dcm.c"/>
+            <file name="sl_imu_fuse.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/imu/src/sl_imu_fuse.c"/>
+            <file name="sl_imu_math.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/imu/src/sl_imu_math.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="sl_imu.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/driver/imu/inc/sl_imu.h"/>
+          </folder>
+        </folder>
+      </folder>
+      <folder name="board">
+        <folder name="src">
+          <file name="brd4166a_support.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/board/src/brd4166a_support.c"/>
+          <file name="sl_board_init.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/board/src/sl_board_init.c"/>
+          <file name="sl_board_control_gpio.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/board/src/sl_board_control_gpio.c"/>
+        </folder>
+        <folder name="inc">
+          <file name="brd4166a_support.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/board/inc/brd4166a_support.h"/>
+          <file name="sl_board_control.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/board/inc/sl_board_control.h"/>
+          <file name="sl_board_init.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/hardware/board/inc/sl_board_init.h"/>
+        </folder>
+      </folder>
+    </folder>
+    <folder name="util">
+      <folder name="third_party">
+        <folder name="crypto">
+          <folder name="sl_component">
+            <folder name="sl_alt">
+              <folder name="source">
+                <file name="sl_entropy.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_alt/source/sl_entropy.c"/>
+                <file name="sl_entropy_adc.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_alt/source/sl_entropy_adc.c"/>
+                <file name="sl_mbedtls.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_alt/source/sl_mbedtls.c"/>
+              </folder>
+              <folder name="include">
+                <file name="sl_entropy_adc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_alt/include/sl_entropy_adc.h"/>
+                <file name="sl_mbedtls.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_alt/include/sl_mbedtls.h"/>
+              </folder>
+            </folder>
+            <folder name="sl_protocol_crypto">
+              <folder name="src">
+                <file name="sli_protocol_crypto_crypto.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_protocol_crypto/src/sli_protocol_crypto_crypto.c"/>
+                <file name="sli_protocol_crypto.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_protocol_crypto/src/sli_protocol_crypto.h"/>
+              </folder>
+            </folder>
+            <folder name="sl_mbedtls_support">
+              <folder name="src">
+                <file name="crypto_aes.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/src/crypto_aes.c"/>
+                <file name="crypto_ecp.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/src/crypto_ecp.c"/>
+                <file name="mbedtls_sha.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/src/mbedtls_sha.c"/>
+              </folder>
+              <folder name="inc">
+                <folder name="configs">
+                  <file name="config-device-acceleration.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc/configs/config-device-acceleration.h"/>
+                  <file name="config-sl-crypto-all-acceleration.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc/configs/config-sl-crypto-all-acceleration.h"/>
+                </folder>
+                <file name="aes_alt.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc/aes_alt.h"/>
+                <file name="ccm_alt.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc/ccm_alt.h"/>
+                <file name="cmac_alt.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc/cmac_alt.h"/>
+                <file name="sha1_alt.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc/sha1_alt.h"/>
+                <file name="sha256_alt.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc/sha256_alt.h"/>
+                <file name="sha512_alt.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc/sha512_alt.h"/>
+                <file name="threading_alt.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc/threading_alt.h"/>
+                <file name="gcm_alt.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_mbedtls_support/inc/gcm_alt.h"/>
+              </folder>
+            </folder>
+            <folder name="sl_psa_driver">
+              <folder name="src">
+                <file name="sli_psa_driver_init.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_psa_driver_init.c"/>
+                <file name="crypto_management.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_psa_driver/src/crypto_management.c"/>
+                <file name="sli_crypto_transparent_driver_cipher.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_crypto_transparent_driver_cipher.c"/>
+                <file name="sli_crypto_transparent_driver_hash.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_crypto_transparent_driver_hash.c"/>
+                <file name="sli_crypto_transparent_driver_mac.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_crypto_transparent_driver_mac.c"/>
+                <file name="sli_crypto_transparent_driver_aead.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_crypto_transparent_driver_aead.c"/>
+              </folder>
+              <folder name="inc">
+                <file name="sli_psa_driver_common.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_psa_driver/inc/sli_psa_driver_common.h"/>
+                <file name="crypto_management.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_psa_driver/inc/crypto_management.h"/>
+                <file name="sli_crypto_transparent_functions.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_psa_driver/inc/sli_crypto_transparent_functions.h"/>
+                <file name="sli_crypto_transparent_types.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/sl_component/sl_psa_driver/inc/sli_crypto_transparent_types.h"/>
+              </folder>
+            </folder>
+          </folder>
+          <folder name="mbedtls">
+            <folder name="library">
+              <file name="sha256.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/sha256.c"/>
+              <file name="ccm.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/ccm.c"/>
+              <file name="ecp.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/ecp.c"/>
+              <file name="ecp_curves.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/ecp_curves.c"/>
+              <file name="ecdh.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/ecdh.c"/>
+              <file name="ecdsa.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/ecdsa.c"/>
+              <file name="cipher.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/cipher.c"/>
+              <file name="cipher_wrap.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/cipher_wrap.c"/>
+              <file name="cmac.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/cmac.c"/>
+              <file name="aes.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/aes.c"/>
+              <file name="entropy.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/entropy.c"/>
+              <file name="ctr_drbg.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/ctr_drbg.c"/>
+              <file name="error.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/error.c"/>
+              <file name="threading.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/threading.c"/>
+              <file name="platform.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/platform.c"/>
+              <file name="platform_util.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/platform_util.c"/>
+              <file name="common.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/common.h"/>
+              <file name="bignum.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/library/bignum.c"/>
+            </folder>
+            <folder name="include">
+              <folder name="mbedtls">
+                <file name="sha256.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/sha256.h"/>
+                <file name="ccm.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/ccm.h"/>
+                <file name="ecp.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/ecp.h"/>
+                <file name="ecp_internal.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/ecp_internal.h"/>
+                <file name="ecdh.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/ecdh.h"/>
+                <file name="ecdsa.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/ecdsa.h"/>
+                <file name="md.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/md.h"/>
+                <file name="arc4.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/arc4.h"/>
+                <file name="blowfish.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/blowfish.h"/>
+                <file name="camellia.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/camellia.h"/>
+                <file name="cipher.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/cipher.h"/>
+                <file name="cipher_internal.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/cipher_internal.h"/>
+                <file name="cmac.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/cmac.h"/>
+                <file name="aes.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/aes.h"/>
+                <file name="entropy.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/entropy.h"/>
+                <file name="entropy_poll.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/entropy_poll.h"/>
+                <file name="ctr_drbg.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/ctr_drbg.h"/>
+                <file name="config.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/config.h"/>
+                <file name="check_config.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/check_config.h"/>
+                <file name="error.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/error.h"/>
+                <file name="padlock.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/padlock.h"/>
+                <file name="platform.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/platform.h"/>
+                <file name="platform_util.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/platform_util.h"/>
+                <file name="psa_util.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/psa_util.h"/>
+                <file name="threading.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/threading.h"/>
+                <file name="version.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/version.h"/>
+                <file name="xtea.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/xtea.h"/>
+                <file name="bignum.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/bignum.h"/>
+                <file name="bn_mul.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/mbedtls/bn_mul.h"/>
+              </folder>
+              <folder name="psa">
+                <file name="crypto.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/psa/crypto.h"/>
+                <file name="crypto_compat.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/psa/crypto_compat.h"/>
+                <file name="crypto_driver_common.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/psa/crypto_driver_common.h"/>
+                <file name="crypto_extra.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/psa/crypto_extra.h"/>
+                <file name="crypto_platform.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/psa/crypto_platform.h"/>
+                <file name="crypto_se_driver.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/psa/crypto_se_driver.h"/>
+                <file name="crypto_sizes.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/psa/crypto_sizes.h"/>
+                <file name="crypto_struct.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/psa/crypto_struct.h"/>
+                <file name="crypto_types.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/psa/crypto_types.h"/>
+                <file name="crypto_values.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/crypto/mbedtls/include/psa/crypto_values.h"/>
+              </folder>
+            </folder>
+          </folder>
+        </folder>
+        <folder name="printf">
+          <folder name="src">
+            <file name="iostream_printf.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/printf/src/iostream_printf.c"/>
+          </folder>
+          <folder name="inc">
+            <file name="iostream_printf.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/printf/inc/iostream_printf.h"/>
+          </folder>
+          <file name="printf.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/printf/printf.c"/>
+          <file name="printf.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/third_party/printf/printf.h"/>
+        </folder>
+      </folder>
+      <folder name="silicon_labs">
+        <folder name="silabs_core">
+          <folder name="memory_manager">
+            <file name="sl_malloc.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/silicon_labs/silabs_core/memory_manager/sl_malloc.c"/>
+            <file name="sl_malloc.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/util/silicon_labs/silabs_core/memory_manager/sl_malloc.h"/>
+          </folder>
+        </folder>
+      </folder>
+    </folder>
+    <folder name="app">
+      <folder name="bluetooth">
+        <folder name="common">
+          <folder name="simple_timer">
+            <file name="sl_simple_timer.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/simple_timer/sl_simple_timer.c"/>
+            <file name="sl_simple_timer.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/simple_timer/sl_simple_timer.h"/>
+          </folder>
+          <folder name="sensor_hall">
+            <file name="sl_sensor_hall.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_hall/sl_sensor_hall.c"/>
+            <file name="sl_sensor_hall.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_hall/sl_sensor_hall.h"/>
+          </folder>
+          <folder name="app_assert">
+            <file name="sl_app_assert.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/app_assert/sl_app_assert.h"/>
+          </folder>
+          <folder name="sensor_rht">
+            <file name="sl_sensor_rht.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_rht/sl_sensor_rht.c"/>
+            <file name="sl_sensor_rht.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_rht/sl_sensor_rht.h"/>
+          </folder>
+          <folder name="sensor_select">
+            <file name="sl_sensor_select.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_select/sl_sensor_select.c"/>
+            <file name="sl_sensor_select.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_select/sl_sensor_select.h"/>
+          </folder>
+          <folder name="sensor_imu">
+            <file name="sl_sensor_imu.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_imu/sl_sensor_imu.c"/>
+            <file name="sl_sensor_imu.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/app/bluetooth/common/sensor_imu/sl_sensor_imu.h"/>
+          </folder>
+        </folder>
+      </folder>
+    </folder>
+    <folder name="protocol">
+      <folder name="bluetooth">
+        <folder name="src">
+          <file name="sl_bt_mbedtls_context.c" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/src/sl_bt_mbedtls_context.c"/>
+        </folder>
+        <folder name="inc">
+          <file name="sl_bt_stack_config.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/inc/sl_bt_stack_config.h"/>
+          <file name="sl_bt_ll_config.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/inc/sl_bt_ll_config.h"/>
+          <file name="bg_gattdb_def.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/inc/bg_gattdb_def.h"/>
+          <file name="sl_bgapi.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/inc/sl_bgapi.h"/>
+          <file name="sl_bt_api.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/inc/sl_bt_api.h"/>
+          <file name="sl_bt_api_compatibility.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/inc/sl_bt_api_compatibility.h"/>
+          <file name="sl_bt_stack_init.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/inc/sl_bt_stack_init.h"/>
+          <file name="sl_bt_types.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/inc/sl_bt_types.h"/>
+          <file name="sl_bt_version.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/inc/sl_bt_version.h"/>
+          <file name="sl_bt_mbedtls_context.h" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/inc/sl_bt_mbedtls_context.h"/>
+        </folder>
+        <folder name="lib">
+          <folder name="EFR32MG12P">
+            <folder name="GCC">
+              <file name="libbluetooth.a" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/lib/EFR32MG12P/GCC/libbluetooth.a"/>
+              <file name="libpsstore.a" uri="file:///media/sza2/programs/studio/SimplicityStudio_v5/developer/sdks/gecko_sdk_suite/v3.1/protocol/bluetooth/lib/EFR32MG12P/GCC/libpsstore.a"/>
+            </folder>
+          </folder>
+        </folder>
+      </folder>
+    </folder>
+  </folder>
+  <file name="main.c" linked="false" uri="file:///home/sza2/Nextcloud/Projects/SimplicityStudio/v5_workspace/tbsense2scratch3/main.c"/>
+  <file name="app.c" linked="false" uri="file:///home/sza2/Nextcloud/Projects/SimplicityStudio/v5_workspace/tbsense2scratch3/app.c"/>
+  <file name="app_properties.c" linked="false" uri="file:///home/sza2/Nextcloud/Projects/SimplicityStudio/v5_workspace/tbsense2scratch3/app_properties.c"/>
+  <file name="app.h" linked="false" uri="file:///home/sza2/Nextcloud/Projects/SimplicityStudio/v5_workspace/tbsense2scratch3/app.h"/>
+  <file name="create_bl_files.bat" linked="false" uri="file:///home/sza2/Nextcloud/Projects/SimplicityStudio/v5_workspace/tbsense2scratch3/create_bl_files.bat"/>
+  <file name="create_bl_files.sh" linked="false" uri="file:///home/sza2/Nextcloud/Projects/SimplicityStudio/v5_workspace/tbsense2scratch3/create_bl_files.sh"/>
+  <includePath uri="studio:/project/"/>
+  <includePath uri="studio:/sdk/platform/common/toolchain/inc"/>
+  <includePath uri="studio:/sdk/hardware/driver/mx25_flash_shutdown/inc/sl_mx25_flash_shutdown_usart"/>
+  <includePath uri="studio:/sdk/platform/driver/leddrv/inc"/>
+  <includePath uri="studio:/sdk/util/third_party/crypto/sl_component/sl_alt/include"/>
+  <includePath uri="studio:/sdk/platform/service/iostream/inc"/>
+  <includePath uri="studio:/sdk/platform/service/device_init/inc"/>
+  <includePath uri="studio:/sdk/app/bluetooth/common/simple_timer"/>
+  <includePath uri="studio:/sdk/util/third_party/crypto/sl_component/sl_protocol_crypto/src"/>
+  <includePath uri="studio:/sdk/platform/common/inc"/>
+  <includePath uri="studio:/sdk/util/third_party/crypto/mbedtls/include"/>
+  <includePath uri="studio:/sdk/platform/emlib/inc"/>
+  <includePath uri="studio:/sdk/hardware/driver/bmp280/inc"/>
+  <includePath uri="studio:/sdk/hardware/driver/bmp280/bosch/BMP280_driver"/>
+  <includePath uri="studio:/sdk/protocol/bluetooth/inc"/>
+  <includePath uri="studio:/sdk/platform/emdrv/common/inc"/>
+  <includePath uri="studio:/sdk/hardware/board/inc"/>
+  <includePath uri="studio:/sdk/platform/service/ram_interrupt_vector_init/inc"/>
+  <includePath uri="studio:/sdk/app/bluetooth/common/sensor_hall"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/common"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/protocol/ble"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/protocol/ieee802154"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/protocol/zwave"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/protocol/mfm"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/chip/efr32/efr32xg1x"/>
+  <includePath uri="studio:/sdk/hardware/driver/si70xx/inc"/>
+  <includePath uri="studio:/sdk/util/third_party/printf"/>
+  <includePath uri="studio:/sdk/util/third_party/printf/inc"/>
+  <includePath uri="studio:/sdk/util/third_party/crypto/sl_component/sl_mbedtls_support/inc"/>
+  <includePath uri="studio:/sdk/platform/driver/button/inc"/>
+  <includePath uri="studio:/sdk/app/bluetooth/common/app_assert"/>
+  <includePath uri="studio:/sdk/app/bluetooth/common/sensor_rht"/>
+  <includePath uri="studio:/sdk/platform/service/sleeptimer/inc"/>
+  <includePath uri="studio:/sdk/platform/service/mpu/inc"/>
+  <includePath uri="studio:/sdk/platform/Device/SiliconLabs/EFR32MG12P/Include"/>
+  <includePath uri="studio:/sdk/platform/service/system/inc"/>
+  <includePath uri="studio:/sdk/platform/emdrv/gpiointerrupt/inc"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/plugin/rail_util_pti"/>
+  <includePath uri="studio:/sdk/util/third_party/crypto/sl_component/sl_psa_driver/inc"/>
+  <includePath uri="studio:/sdk/platform/service/udelay/inc"/>
+  <includePath uri="studio:/sdk/platform/service/power_manager/inc"/>
+  <includePath uri="studio:/sdk/platform/driver/i2cspm/inc"/>
+  <includePath uri="studio:/sdk/hardware/driver/si7210/inc"/>
+  <includePath uri="studio:/sdk/util/silicon_labs/silabs_core/memory_manager"/>
+  <includePath uri="studio:/sdk/app/bluetooth/common/sensor_select"/>
+  <includePath uri="studio:/sdk/app/bluetooth/common/sensor_imu"/>
+  <includePath uri="studio:/sdk/hardware/driver/icm20648/inc"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/plugin/pa-conversions"/>
+  <includePath uri="studio:/sdk/platform/radio/rail_lib/plugin/pa-conversions/efr32xg1x"/>
+  <includePath uri="studio:/sdk/util/third_party/crypto/sl_component/sl_mbedtls_support/inc/configs"/>
+  <includePath uri="studio:/sdk/util/third_party/crypto/mbedtls/library"/>
+  <includePath uri="studio:/sdk/platform/bootloader"/>
+  <includePath uri="studio:/sdk/platform/bootloader/api"/>
+  <includePath uri="studio:/sdk/platform/CMSIS/Include"/>
+  <includePath uri="studio:/sdk/hardware/driver/imu/inc"/>
+  <macroDefinition name="SL_RAIL_LIB_MULTIPROTOCOL_SUPPORT" value="0"/>
+  <macroDefinition name="EFR32MG12P332F1024GL125"/>
+  <macroDefinition name="BRD4166A_SUPPORT"/>
+  <macroDefinition name="SL_COMPONENT_CATALOG_PRESENT"/>
+  <macroDefinition name="SL_RAIL_UTIL_PA_CONFIG_HEADER" value="&lt;sl_rail_util_pa_config.h>"/>
+  <macroDefinition name="MBEDTLS_CONFIG_FILE" value="&lt;mbedtls_config.h>"/>
+  <libraryFile uri="studio:/sdk/protocol/bluetooth/lib/EFR32MG12P/GCC/libbluetooth.a"/>
+  <libraryFile uri="studio:/sdk/platform/radio/rail_lib/autogen/librail_release/librail_efr32xg12_gcc_release.a"/>
+  <libraryFile uri="studio:/sdk/protocol/bluetooth/lib/EFR32MG12P/GCC/libpsstore.a"/>
+  <libraryFile name="gcc"/>
+  <libraryFile name="c"/>
+  <libraryFile name="m"/>
+  <libraryFile name="nosys"/>
+  <toolOption toolId="makefile.arm.gcc.linker" optionId="misc">
+    <toolListOption value="-Wl,--gc-sections"/>
+    <toolListOption value="-Xlinker -Map=$(OUTPUT_DIR)/$(PROJECTNAME).map"/>
+  </toolOption>
+  <toolOption toolId="makefile.arm.gcc.compiler" optionId="misc">
+    <toolListOption value="--specs=nano.specs"/>
+    <toolListOption value="-g"/>
+  </toolOption>
+  <toolOption toolId="studio.ide.project" optionId="device_opn" value="efr32mg12p332f1024gl125"/>
+  <toolOption toolId="makefile.arm.gcc.assembler" optionId="misc">
+    <toolListOption value="-x assembler-with-cpp"/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.circulardependency" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs" value="false"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.circulardependency" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.gnu.c.compiler.option.misc.otherlist">
+    <toolListOption value="-c"/>
+    <toolListOption value="-fmessage-length=0"/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.gnu.cpp.compiler.option.misc.otherlist">
+    <toolListOption value="-c"/>
+    <toolListOption value="-fmessage-length=0"/>
+  </toolOption>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.preinclude">
+    <toolListOption value="sl_gcc_preinclude.h"/>
+  </toolOption>
+  <toolOption toolId="toolOption.uc.assembler" optionId="toolOption.uc.assembler.preinclude">
+    <toolListOption value="sl_gcc_preinclude.h"/>
+  </toolOption>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.function_sections" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.data_sections" value="true"/>
+  <toolOption toolId="toolOption.uc.linker" optionId="toolOption.uc.linker.nano_c_libs" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.omit_frame_pointer" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.no_exceptions" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.no_rtti" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.no_builtin" value="true"/>
+  <toolOption toolId="toolOption.uc.toolchain" optionId="toolOption.uc.toolchain.cpu" value="cortex-m4"/>
+  <toolOption toolId="toolOption.uc.toolchain" optionId="toolOption.uc.toolchain.fpu" value="fpv4-sp"/>
+  <toolOption toolId="toolOption.uc.toolchain" optionId="toolOption.uc.toolchain.float_abi" value="softfp"/>
+  <toolOption toolId="toolOption.uc.linker" optionId="toolOption.uc.linker.linkerScript" value="$project/autogen/linkerfile.ld"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.c_standard" value="c99"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.cxx_standard" value="c++11"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.warnings.all" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.warnings.extra" value="true"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.warnings.pedantic" value="false"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.warnings.are_errors" value="false"/>
+  <toolOption toolId="toolOption.uc.compiler" optionId="toolOption.uc.compiler.optimization" value="size"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.floatingpoint.type" value="floatingpoint.type.softfp"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.floatingpoint.enable" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.floatingpoint.type" value="floatingpoint.type.softfp"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.floatingpoint.type" value="floatingpoint.type.softfp"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.floatingpoint.enable" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.floatingpoint.enable" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.floatingpoint.type" value="floatingpoint.type.softfp"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.floatingpoint.type" value="floatingpoint.type.softfp"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.floatingpoint.enable" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.floatingpoint.enable" value="true"/>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.preinclude">
+    <toolListOption builtin="true" value="sl_gcc_preinclude.h"/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.preinclude">
+    <toolListOption builtin="true" value="sl_gcc_preinclude.h"/>
+  </toolOption>
+  <toolOption toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.preinclude">
+    <toolListOption builtin="true" value="sl_gcc_preinclude.h"/>
+  </toolOption>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.misc.dialect" value="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.misc.dialect.c99"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.misc.dialect" value="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.misc.dialect.cpp0x"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.no_rtti" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.no_exceptions" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.debug.builtin" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.debug.builtin" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.level" value="gnu.c.optimization.level.size"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.optimization.level" value="gnu.cpp.compiler.optimization.level.size"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.datasect" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.optimization.datasect" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.functionsects" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.optimization.functionsects" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.optimization.omitframepointer" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.optimization.omitframepointer" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="gnu.c.compiler.option.warnings.allwarn" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="gnu.cpp.compiler.option.warnings.allwarn" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="gnu.c.compiler.option.warnings.extrawarn" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="gnu.cpp.compiler.option.warnings.extrawarn" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="gnu.c.compiler.option.warnings.toerrors" value="false"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="gnu.cpp.compiler.option.warnings.toerrors" value="false"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base" optionId="gnu.c.compiler.option.warnings.pedantic" value="false"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base" optionId="gnu.cpp.compiler.option.warnings.pedantic" value="false"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script" value="${workspace_loc:/${ProjName}}/autogen/linkerfile.ld"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.usescript" value="true"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.clibs" value="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nanospec"/>
+  <toolOption builtin="true" toolId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base" optionId="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.clibs" value="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nanospec"/>
+</project>
