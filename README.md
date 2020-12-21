@@ -11,7 +11,7 @@ The current implementation mimics Scratch's micro:bit firmware operation. There 
 
 Currently, LED color (brightness) and LED state (on/off) as control and X/Y acceleration (tilt) and two buttons as sensing supported.
 
-To compile the project Simplicity Studio v5 should be installed. Clone/download the repo and import in Simplicity Studio. Open the .slcp file in project root then  click on *Force Generation* on the *Overview* tab before compile. If the compilation went OK burn it to Thunderboard Sense 2 (BRD4166A).
+To compile the project Simplicity Studio v5 (with Bluetooth SDK) should be installed. Clone/download the repo and import in Simplicity Studio. Open the .slcp file in project root (the SDK selector may appear - choose the installed one) then click on *Force Generation* on the *Overview* tab before compile. If the compilation went OK burn it to Thunderboard Sense 2 (BRD4166A).
 
 You need to add [Scratch 3 Thunderboard Sense 2 extension](https://github.com/sza2/scratch3_tbsense2) to Scratch to make the board work in Scratch 3.
 
