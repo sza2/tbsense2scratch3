@@ -55,7 +55,7 @@
     
     <!--rx-->
     <characteristic const="false" id="rx" name="rx" sourceId="" uuid="82a1cb01-3921-4c9c-ba34-34f78bab9a1b">
-      <informativeText>Data from TB sense 2 to the client</informativeText>
+      <informativeText>Data from TB Sense 2 to the client</informativeText>
       <value length="0" type="user" variable_length="false"/>
       <properties>
         <read authenticated="false" bonded="false" encrypted="false"/>
@@ -65,7 +65,7 @@
     
     <!--tx-->
     <characteristic const="false" id="tx" name="tx" sourceId="" uuid="82a1cb02-3921-4c9c-ba34-34f78bab9a1b">
-      <informativeText/>
+      <informativeText>Data to TB Sense 2 from the client</informativeText>
       <value length="0" type="user" variable_length="false"/>
       <properties>
         <write authenticated="false" bonded="false" encrypted="false"/>

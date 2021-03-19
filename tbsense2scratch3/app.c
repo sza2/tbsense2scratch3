@@ -23,6 +23,7 @@
 #include "sl_simple_button_instances.h"
 #include "sl_simple_timer.h"
 #include "sl_sensor_imu.h"
+#include "sl_sensor_rht.h"
 
 #include "brd4166a/board.h"
 
@@ -51,11 +52,12 @@ SL_WEAK void app_init(void)
   // Put your additional application init code here!                         //
   // This is called once during start-up.                                    //
   /////////////////////////////////////////////////////////////////////////////
-//  sl_app_log("Scratch TB sense 2\n");
+//  sl_app_log("Scratch TB Sense 2\n");
   rgb_led_init();
   rgb_led_set(0x00, 0, 0, 0);
   sl_sensor_imu_init();
   sl_sensor_imu_enable(true);
+  sl_sensor_rht_init();
 }
 
 /**************************************************************************//**
@@ -92,6 +94,7 @@ bool rx_imu_update(void)
   bool value_changed = false;
   sl_status_t sc = sl_sensor_imu_get(orientation_current, acceleration_current);
   if (sc == SL_STATUS_OK) {
+    // decrease sensitivity otherwise the update is too fast
     acceleration_current[0] = (acceleration_current[0] + 0x0020) & 0xffc0;
     acceleration_current[1] = (acceleration_current[1] + 0x0020) & 0xffc0;
     rx_array[0] = acceleration_current[1] >> 8;
@@ -108,16 +111,34 @@ bool rx_imu_update(void)
   return value_changed;
 }
 
+void rx_rht_update(void)
+{
+  uint32_t relative_humidity;
+  int32_t temperature;
+  sl_sensor_rht_get(&relative_humidity, &temperature);
+  // MSB first, to follow micro:bit format
+  rx_array[6] = (temperature >> 8) & 0xff;
+  rx_array[7] = temperature & 0xff;
+  rx_array[8] = (relative_humidity >> 8) & 0xff;
+  rx_array[9] = relative_humidity & 0xff;
+}
+
 static void rx_timer_cb(sl_simple_timer_t *timer, void *data)
 {
-  static uint8_t counter = 0;
+  static uint8_t counter_imu = 0;
+  static uint8_t counter_rht = 0;
   (void)data;
   (void)timer;
-  if (rx_imu_update() || counter > 20) {
+  // counters a separated to make it possible to set different update interval
+  if (rx_imu_update() || counter_imu > 20 || counter_rht > 20) {
+    rx_rht_update();
     rx_notify();
-    counter = 0;
+    counter_imu = 0;
+    counter_rht = 0;
   }
-  counter++;
+
+  counter_imu++;
+  counter_rht++;
 }
 
 static void rx_read_cb(sl_bt_evt_gatt_server_user_read_request_t *data)

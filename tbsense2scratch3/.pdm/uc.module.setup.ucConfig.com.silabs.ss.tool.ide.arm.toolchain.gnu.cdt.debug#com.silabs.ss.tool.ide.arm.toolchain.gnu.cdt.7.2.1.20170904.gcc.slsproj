@@ -11,7 +11,7 @@
     <file name="sl_device_init_dcdc_config.h" uri="studio:/project/config/sl_device_init_dcdc_config.h"/>
     <file name="sl_bluetooth_config.h" uri="studio:/project/config/sl_bluetooth_config.h"/>
     <file name="sl_board_control_config.h" uri="studio:/project/config/sl_board_control_config.h"/>
-    <file name="sl_i2cspm_sensor_config.h" generated="true" uri="studio:/project/config/sl_i2cspm_sensor_config.h"/>
+    <file name="sl_i2cspm_sensor_config.h" uri="studio:/project/config/sl_i2cspm_sensor_config.h"/>
     <file name="sl_simple_button_config.h" uri="studio:/project/config/sl_simple_button_config.h"/>
     <file name="sl_app_assert_config.h" uri="studio:/project/config/sl_app_assert_config.h"/>
     <file name="sl_sleeptimer_config.h" uri="studio:/project/config/sl_sleeptimer_config.h"/>
